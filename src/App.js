@@ -21,9 +21,16 @@ const projectsData = [
   {
     title: "A mobile coffee application built with Kotlin. 1",
     images: [
-      `${process.env.PUBLIC_URL}/coffee1.png`,
+      `${process.env.PUBLIC_URL}/coffee10.png`,
       `${process.env.PUBLIC_URL}/coffee2.png`,
-      `${process.env.PUBLIC_URL}/coffee3.png`
+      `${process.env.PUBLIC_URL}/coffee3.png`,
+      `${process.env.PUBLIC_URL}/coffee4.png`,
+      `${process.env.PUBLIC_URL}/coffee5.png`,
+      `${process.env.PUBLIC_URL}/coffee6.png`,
+      `${process.env.PUBLIC_URL}/coffee7.png`,
+      `${process.env.PUBLIC_URL}/coffee8.png`,
+      `${process.env.PUBLIC_URL}/coffee9.png`,
+      `${process.env.PUBLIC_URL}/coffee1.png`
     ],
     github: "https://github.com/elsaqq/MyApplication"
   },
@@ -32,7 +39,10 @@ const projectsData = [
     images: [
       `${process.env.PUBLIC_URL}/fitness1.png`,
       `${process.env.PUBLIC_URL}/fitness2.png`,
-      `${process.env.PUBLIC_URL}/fitness3.png`
+      `${process.env.PUBLIC_URL}/fitness3.png`,
+      `${process.env.PUBLIC_URL}/fitness4.png`,
+      `${process.env.PUBLIC_URL}/fitness5.png`,
+      `${process.env.PUBLIC_URL}/fitness6.png`
     ],
     github: "https://github.com/elsaqq/FitnessAppKot"
   },
@@ -116,7 +126,7 @@ function Projects() {
             <h3>{project.title}</h3>
             <p>{project.description}</p>
 
-            {/* Image Slider for Projects 1 & 2, Video for Project 3 */}
+            {}
             <div className="slider-container">
               {project.video ? (
                 <div className="slider-img-wrapper">
