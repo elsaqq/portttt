@@ -43,7 +43,6 @@ const projectsData = [
       `${process.env.PUBLIC_URL}/fitness4.png`,
       `${process.env.PUBLIC_URL}/fitness5.png`,
       `${process.env.PUBLIC_URL}/fitness6.png`,
-      `${process.env.PUBLIC_URL}/ftness6.png`,
       `${process.env.PUBLIC_URL}/fitness7.png`,
       `${process.env.PUBLIC_URL}/fitness8.png`,
       
