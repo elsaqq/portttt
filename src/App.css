@@ -17,6 +17,7 @@ body.dark-mode {
 }
 
 
+
 .navbar {
   display: flex;
   justify-content: center;
@@ -260,6 +261,16 @@ body.dark-mode {
   color: white !important; 
 }
 
+.cv-button {
+  display: block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #118cf1d2;
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+ 
+}
 
 
 
